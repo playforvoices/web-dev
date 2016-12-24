@@ -5,7 +5,6 @@
       background-image: url('static/pfv.jpg');
 }
 
-
 #top-bar {
     background: rgb(243, 243, 243);
 }
@@ -34,19 +33,9 @@
     background-color: #ffffff;
     color: #ffffff;
 }
-#sub-header {
-    background-color: rgb(0, 0, 0);
-    color: #ffffff;
-}
-#breadcrumbs a {
-    color: #0a0808
-}
-#breadcrumbs a:hover {
-    color:
-}
+
 body {
     background-color: #f9f9f9;
-    color: ;
     font-family: Open Sans;
     font-weight: 400;
     font-size: ;
@@ -61,37 +50,6 @@ a:focus {
     text-decoration: none;
     -webkit-transition: all .3s;
     transition: all .3s
-}
-.hentry {
-    background-color: #ffffff;
-}
-.entry-title a {
-    color: ;
-}
-.entry-title a:hover {
-    color: ;
-}
-.entry-footer,
-.entry-meta {
-    color: #7a7a7a;
-}
-.author-bio {
-    background: #48365c;
-    color: #ffffff;
-}
-#sidebar .sidebar-padder {
-    background-color: #ffffff;
-}
-.widget-title {
-    color: #000000;
-}
-#sidebar a {
-    color: #0c0c0c;
-}
-#sidebar a:hover,
-#sidebar a:active,
-#sidebar a:focus {
-    color: #2d2d2d;
 }
 .footer-wrapper {
     background-color: #222222;
@@ -158,12 +116,6 @@ h6,
     body {
         background-color: white;
     }
-    #header-social {
-        display: none;
-    }
-    #footer-socials {
-        display: none;
-    }
     .menu-item {
         font-size: 18px;
         letter-spacing: 5px;
@@ -196,9 +148,6 @@ h6,
         color: black;
         text-transform: lowercase;
     }
-    #sub-header {
-        display: none;
-    }
     #site-menu .navbar-nav > .menu-item> a {
         color: #b84174;
         text-transform: lowercase;
@@ -213,19 +162,7 @@ h6,
         padding-top: 5px;
         padding-bottom: 5px;
     }
-    .footer-wrapper {
-        background-color: transparent;
-        color: black;
-        max-width: 1600px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-left: auto;
-        margin-right: auto;
-        border-top: none;
-    }
-    .footer-wrapper a {
-        color: #b84174;
-    }
+
     .page-title {
         border-bottom: none;
         background: none;
@@ -267,18 +204,7 @@ h6,
         background: none;
         box-shadow: none;
     }
-    .hentry {
-        margin-top: 0;
-        padding-top: 0;
-        border-bottom: none;
-        background: none;
-        box-shadow: none;
-    }
-    .hentry:after {
-        border-bottom: none;
-        background: none;
-        box-shadow: none;
-    }
+
     .page-title {
         padding-top: 0px;
         margin-top: 0px;
