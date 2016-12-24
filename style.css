@@ -141,35 +141,7 @@ h6,
     font-weight: ;
     font-size: ;
 }
-@media (min-width: 988px) {
-    #menu-main {
-        padding-right: 70px;
-    }
-    .main-content-area {
-        margin: 0 0;
-    }
-    #top-header {
-        height: 140px;
-        background-size: auto 100%;
-        background-position: center 0;
-    }
-    #site-nav {
-        top: -62px;
-        height: 60px;
-        background: transparent;
-    }
-    .btn {
-        background-color: black;
-    }
-    .btn:hover {
-        background-color: black;
-    }
-    .footer-wrapper {
-        background-size: auto 26%;
-        background-position: center top;
-        padding-top: 75px;
-    }
-}
+
 @media all {
     b,
     strong {
