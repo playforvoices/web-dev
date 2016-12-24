@@ -17,6 +17,9 @@
 #top-bar a:hover {
     color: #000000;
 }
+#site-menu {
+  overflow: hidden;
+}
 #site-menu .navbar-nav > .open > a,
 #site-menu .navbar-nav > .open > a:focus,
 #site-menu .navbar-nav > .open > a:hover,
