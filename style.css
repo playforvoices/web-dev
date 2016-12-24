@@ -317,7 +317,9 @@ h6,
         word-break: keep-all;
     }
 }
-.navbar-header .navbar-toggle .icon-bar {
+.navbar-toggle .icon-bar {
     background-color: gray;
+}
+.navbar-toggle {
     border: 1px solid gray;
 }
