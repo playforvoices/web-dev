@@ -1,2 +1,1 @@
-# web-dev
-development environment for Playforvoices.org
+# Development environment for Playforvoices.org

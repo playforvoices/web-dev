@@ -1,0 +1,319 @@
+#top-bar {
+    background: rgb(243, 243, 243);
+}
+#top-bar a {
+    color: #2d2d2d;
+}
+#top-bar a:hover {
+    color: #000000;
+}
+#site-menu .navbar-nav > .open > a,
+#site-menu .navbar-nav > .open > a:focus,
+#site-menu .navbar-nav > .open > a:hover,
+#site-menu .navbar-nav > .active > a,
+#site-menu .navbar-nav > .active > a:focus,
+#site-menu .navbar-nav > .active > a:hover,
+#site-menu .navbar-nav > li > a:focus,
+#site-menu .navbar-nav > li > a:hover,
+.nav .open > a,
+.nav .open > a:focus,
+.nav .open > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:focus,
+.dropdown-menu > .active > a:hover {
+    background-color: #ffffff;
+    color: #ffffff;
+}
+#sub-header {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+#breadcrumbs a {
+    color: #0a0808
+}
+#breadcrumbs a:hover {
+    color:
+}
+body {
+    background-color: #f9f9f9;
+    color: ;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: ;
+}
+a {
+    color: #000000;
+}
+a:hover,
+a:active,
+a:focus {
+    color: #3d3d3d;
+    text-decoration: none;
+    -webkit-transition: all .3s;
+    transition: all .3s
+}
+.hentry {
+    background-color: #ffffff;
+}
+.entry-title a {
+    color: ;
+}
+.entry-title a:hover {
+    color: ;
+}
+.entry-footer,
+.entry-meta {
+    color: #7a7a7a;
+}
+.author-bio {
+    background: #48365c;
+    color: #ffffff;
+}
+#sidebar .sidebar-padder {
+    background-color: #ffffff;
+}
+.widget-title {
+    color: #000000;
+}
+#sidebar a {
+    color: #0c0c0c;
+}
+#sidebar a:hover,
+#sidebar a:active,
+#sidebar a:focus {
+    color: #2d2d2d;
+}
+.footer-wrapper {
+    background-color: #222222;
+    color: #bbbbbb;
+}
+.footer-wrapper a {
+    color: #bab8cc;
+}
+.footer-wrapper a:hover,
+.footer-wrapper a:active,
+.footer-wrapper a:focus {
+    color: #d5d4e0;
+}
+.footer-widget-title {
+    color: #ffffff;
+}
+h1,
+.h1 {
+    font-size: ;
+    font-family: Open Sans;
+    font-weight: 300;
+}
+h2,
+.h2 {
+    font-size: ;
+    font-family: Open Sans;
+    font-weight: 300;
+}
+h3,
+.h3 {
+    font-size: ;
+    font-family: Open Sans;
+    font-weight: 300;
+}
+h4,
+.h4 {
+    font-size: ;
+    font-family: Open Sans;
+    font-weight: 300;
+}
+h5,
+.h5 {
+    font-size: ;
+    font-family: Open Sans;
+    font-weight: 300;
+}
+h6,
+.h6 {
+    font-size: ;
+    font-family: Open Sans;
+    font-weight: 300;
+}
+.navbar-default {
+    font-family: Open Sans;
+    font-weight: ;
+    font-size: ;
+}
+</style><style media="all" type="text/css">@media (min-width: 988px) {
+    #menu-main {
+        padding-right: 70px;
+    }
+    .site-title {
+        opacity: 0;
+    }
+    .main-content-area {
+        margin: 0 0;
+    }
+    #top-header {
+        height: 140px;
+        background: url('http://www.playforvoices.com/wp-content/uploads/2016/02/PfVlogoshort2.png') no-repeat;
+        background-size: auto 100%;
+        background-position: center 0;
+    }
+    #site-nav {
+        top: -62px;
+        height: 60px;
+        background: transparent;
+    }
+    .btn {
+        background-color: black;
+    }
+    .btn:hover {
+        background-color: black;
+    }
+    .footer-wrapper {
+        background: url('http://www.playforvoices.com/wp-content/uploads/2016/02/PfV-Gray-Line.png') no-repeat;
+        background-size: auto 26%;
+        background-position: center top;
+        padding-top: 75px;
+    }
+}
+@media all {
+    b,
+    strong {
+        font-weight: 900;
+    }
+    body {
+        background-color: white;
+    }
+    #header-social {
+        display: none;
+    }
+    #footer-socials {
+        display: none;
+    }
+    .menu-item {
+        font-size: 18px;
+        letter-spacing: 5px;
+        color: #b84174;
+        text-decoration: underline;
+        text-transform: lowercase;
+    }
+    .site-title {
+        letter-spacing: 5px;
+        text-transform: lowercase;
+    }
+    .page-title,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        letter-spacing: 5px;
+        text-transform: lowercase;
+    }
+    #site-menu .navbar-nav > .menu-item > a:hover {
+        background-color: white;
+        color: black;
+        text-transform: lowercase;
+    }
+    #site-menu .navbar-nav > #search_dropdown > a:hover {
+        letter-spacing: 5px;
+        background-color: white;
+        color: black;
+        text-transform: lowercase;
+    }
+    #sub-header {
+        display: none;
+    }
+    #site-menu .navbar-nav > .menu-item> a {
+        color: #b84174;
+        text-transform: lowercase;
+    }
+    #site-menu .navbar-nav > .active > a {
+        background-color: white;
+        color: #b84174;
+        text-transform: lowercase;
+    }
+    .copyright-text {
+        background: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .footer-wrapper {
+        background-color: transparent;
+        color: black;
+        max-width: 1600px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        border-top: none;
+    }
+    .footer-wrapper a {
+        color: #b84174;
+    }
+    .page-title {
+        border-bottom: none;
+        background: none;
+        box-shadow: none;
+    }
+    .page-title:before {
+        border-bottom: none;
+        background: none;
+        box-shadow: none;
+    }
+    .entry-header:before {
+        border-bottom: none;
+        background: none;
+        box-shadow: none;
+    }
+    .entry-header {
+        border-bottom: none;
+        background: none;
+        box-shadow: none;
+    }
+    .entry-header:after {
+        border-bottom: none;
+        background: none;
+        box-shadow: none;
+    }
+    .entry-content:after {
+        border-bottom: none;
+        background: none;
+        box-shadow: none;
+    }
+    .entry-footer {
+        border-top: none;
+        border-bottom: none;
+        background: none;
+        box-shadow: none;
+    }
+    .entry-footer:after {
+        border-bottom: none;
+        background: none;
+        box-shadow: none;
+    }
+    .hentry {
+        margin-top: 0;
+        padding-top: 0;
+        border-bottom: none;
+        background: none;
+        box-shadow: none;
+    }
+    .hentry:after {
+        border-bottom: none;
+        background: none;
+        box-shadow: none;
+    }
+    .page-title {
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    p {
+        -epub-hyphens: none;
+        -moz-hyphens: none;
+        -ms-hyphens: none;
+        -webkit-hyphens: none;
+        hyphens: none;
+        word-break: keep-all;
+    }
+}
