@@ -7,81 +7,78 @@
 
   <link type="text/css" rel="stylesheet" href="../dist/css/bootstrap.css" />
   <link type="text/css" rel="stylesheet" href="../style.css" />
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-
   <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
   <link rel="icon" href="../favicon.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
-<div class="container outer">
-  <div class="container">
+<div class="container ">
+  <div class="row">
     <div class="site-title"></div>
   </div>
 
-  <nav id="site-nav" class="navbar navbar-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                  <a class="navbar-brand" href="#"></a>
+  <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Project name</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
+              <li><a href="../navbar-static-top/">Static top</a></li>
+              <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
 
-                                                </div> <!-- navbar-header -->
-
-
-                            <div id="site-menu" class="collapse navbar-collapse" role="navigation">
-                    <ul id="menu-main" class="nav navbar-nav">
-                      <li class="menu-item active"><a title="Home" href="../welcome">Home</a></li>
-<li class="menu-item" >
-  <a title="Producers" href="../producers">Producers</a></li>
-<li class="menu-item" ><a title="Submit" href="../submit">Submit</a></li>
-
-    </ul>
-  </div> <!-- site-menu -->
-    </div>  <!-- container -->
-    </nav> <!-- site-nav -->
 
 
 <div class="row">
-  	<div class="main-content-area">
-  		<div class="container-fluid clearfix">
-  			<div class="row-fluid">
+  	<div class="col-md-12">
+      <h3>Welcome!</h3>
 
-
-  <div id="primary" class="content-area col-md-12">
-
-  <div class="entry-content clearfix">
-  <h3>Welcome!</h3>
-  <p><span style="color: #ffffff;">*</span></p>
-  <p><em>Play for Voices</em> is a new podcast of international radio drama slated to launch in the fall of 2016.</p>
-  <p>Our show will present new productions of contemporary and classic radio plays from around the world, exploring their aesthetic, social, and political contexts through inventive, multilingual sound design and interviews with authors, translators, and other interesting people. We&#8217;ll feature English-language plays and plays in English translation.</p>
-  <p>Radio drama—“plays for voices” written to be heard rather than seen—enjoyed great popularity in the U.S. during the “Golden Age” of radio, from the 1920s to the 1950s. Since then, radio dramas have occupied a marginal place in the U.S. radio landscape, but the form has remained vibrant elsewhere in the world, often on public broadcasting networks. Radio drama is a highly flexible dramatic form that encourages experimentation and encompasses narrative, lyric, serials, and standalone plays of varying lengths.</p>
-  <p>Inspired by the resurgence of audio storytelling in the United States, <em>Play for Voices</em> aims to build an inclusive audience of listeners for international radio drama in English and English translation, and to promote dialogue among the literary, translation, theater, radio, and sound art communities.</p>
-  <p>Please visit our &#8220;Submit&#8221; page if you have something to send us!</p>
+    <p><em>Play for Voices</em> is a new podcast of international radio drama slated to launch in the fall of 2016.</p>
+    <p>Our show will present new productions of contemporary and classic radio plays from around the world, exploring their aesthetic, social, and political contexts through inventive, multilingual sound design and interviews with authors, translators, and other interesting people. We&#8217;ll feature English-language plays and plays in English translation.</p>
+    <p>Radio drama—“plays for voices” written to be heard rather than seen—enjoyed great popularity in the U.S. during the “Golden Age” of radio, from the 1920s to the 1950s. Since then, radio dramas have occupied a marginal place in the U.S. radio landscape, but the form has remained vibrant elsewhere in the world, often on public broadcasting networks. Radio drama is a highly flexible dramatic form that encourages experimentation and encompasses narrative, lyric, serials, and standalone plays of varying lengths.</p>
+    <p>Inspired by the resurgence of audio storytelling in the United States, <em>Play for Voices</em> aims to build an inclusive audience of listeners for international radio drama in English and English translation, and to promote dialogue among the literary, translation, theater, radio, and sound art communities.</p>
+    <p>Please visit our &#8220;Submit&#8221; page if you have something to send us!</p>
 
     </div>
-  	</div> <!--/#primary -->
-              </div> <!-- row -->
-          </div> <!-- container -->
-</div>
-</div>
+  	</div>
 
-<div class="copyrights-area clearfix">
-                    <div class="row-fluid">
-                        <div class="copyright-text col-md-12">
-                            Copyright ©                             <span itemprop="copyrightYear">
-                                2016                            </span>
-                            <a href="../welcome" itemprop="url"><span itemprop="copyrightHolder">Play for Voices</span></a>
-                            All rights reserved.                        </div>
-                            <div class="col-md-12 copyright-text">Design by Joshua Unikel</div>
-                            <div class="col-md-12 copyright-text">Web Development by Matthew Lavin</div>
-                                            </div>
-                </div>
+<div class="row">
+
+  <div class="col-md-12">Copyright © 2016 <a href="../welcome" itemprop="url"><span itemprop="copyrightHolder">Play for Voices</span></a> All rights reserved.</div>
+  <div class="col-md-12">Site design by Joshua Unikel and Matthew Lavin</div>
+  <div class="col-md-12">Logo design by Jill Fidler</div>
+  <div class="col-md-12">Web development by Matthew Lavin</div>
+  </div>
+</div>
   <!-- JavaScript -->
   <script src="../js/jquery-3.1.0.min.js"></script>
   <script src="../dist/js/bootstrap.js"></script>
