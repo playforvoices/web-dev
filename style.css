@@ -1,3 +1,69 @@
+/* dropdown styles */
+#preview {
+  padding-left: 10px;
+  font-size: 120%;
+  font-family: "Times New Roman, times, serif";
+  font-weight: 800;
+}
+
+#cssbar {
+  position: fixed;
+  padding: 5px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background: lightgray;
+  border: 1px solid black;
+  z-index: 5;
+
+}
+#fontdropdown, #sizedropdown, #menudropdown {
+
+padding: 5px;
+margin: 5px;
+
+}
+#bottom {
+  margin-bottom: 50px;
+
+}
+/* dropdown styles */
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: white;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+
+    }
+    .navbar-default {
+      background-color: white;
+      border-color: white;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+      border: 0;
+      background-color: white;
+
+    }
+}
+
+
 .site-title {
       margin-top: 15px;
       height: 250px;
